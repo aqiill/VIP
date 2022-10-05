@@ -1,0 +1,722 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.page {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 55px;
+}
+
+.title h1 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 0%) 0, hsl(0, 82%, 52%) 10%, hsl(0, 0%, 0%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+
+
+.slide h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.slide h1 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 0%) 0, hsl(0, 82%, 52%) 10%, hsl(0, 0%, 0%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+h3 {
+    margin-top: -50px;
+    color: black;
+}
+
+.scroll {
+    color: #304F4B;
+    font-size: 40px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll i {
+    animation: updown 3s infinite;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 680px;
+    }
+
+    100% {
+        background-position: 680px;
+    }
+}
+
+span {
+    background: white !important;
+}
+
+.social {
+    padding: 2%;
+    font-size: 20px;
+}
+
+.menu-card {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* opacity: 0.5; */
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.menu-card a {
+    text-decoration: none;
+    color: #304F4B;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu-card a:hover,
+.menu-card a.active {
+    color: #649F98;
+}
+
+.menu-card h1 {
+    text-align: center;
+    background: linear-gradient(to right, hsl(0, 0%, 0%) 0, hsl(0, 82%, 52%) 10%, hsl(0, 0%, 0%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+.text-card {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-35%, -35%);
+    width: 40%;
+    border-left: 10px solid #C49C6C;
+    background-color: rgb(255, 255, 255, .7);
+}
+
+.text-card h1 {
+    font-size: 20px;
+}
+
+.text-card-2 {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-35%, -35%);
+    width: 50%;
+    border-left: 10px solid #C49C6C;
+    background-color: rgb(255, 255, 255, .7);
+}
+
+.text-card-2 h1 {
+    font-size: 20px;
+}
+
+
+.text-card-2 .judul-card {
+    font-size: 30px;
+    color: #304F4B;
+}
+
+
+.text-card-3 .judul-card {
+    font-size: 30px;
+    color: #304F4B;
+}
+
+.petani {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.petani img {
+    animation: move 3s infinite;
+    width: 55%;
+}
+
+.desa {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.desa img {
+    animation: moveback 3s infinite;
+    width: 100%;
+}
+
+.rumput {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.rumput img {
+    width: 100%;
+}
+
+.rumah {
+    margin: 0;
+    position: absolute;
+    top: 84%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.rumah img {
+    width: 90%;
+}
+
+.pelabuhan {
+    margin: 0;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.pelabuhan img {
+    width: 85%;
+}
+
+
+
+.mata-angin {
+    margin: 0;
+    position: absolute;
+    top: 84%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.mata-angin img {
+    width: 15%;
+}
+
+.batu {
+    margin: 0;
+    position: absolute;
+    top: 84%;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.batu img {
+    width: 30%;
+    /* animation: move 3s infinite; */
+}
+
+.burung {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.burung img {
+    width: 30%;
+    animation: moveback 3s infinite;
+}
+
+.text-card-3 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-35%, -35%);
+    width: 70%;
+    border-left: 10px solid #C49C6C;
+    background-color: rgb(255, 255, 255, .7);
+}
+
+.text-card-3 h1 {
+    font-size: 20px;
+}
+
+.text-card-4 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-35%, -35%);
+    width: 70%;
+    border-top: 10px solid #4B3200;
+    background-color: rgb(255, 255, 255, .7);
+}
+
+.text-card-4 h1 {
+    font-size: 20px;
+}
+
+.text-card-4 .judul-card {
+    font-size: 30px;
+    color: #304F4B;
+}
+
+.text-card-5 {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-35%, -35%);
+    width: 70%;
+    border-left: 10px solid #4B3200;
+    border-right: 10px solid #4B3200;
+    background-color: rgb(255, 255, 255, .7);
+}
+
+.text-card-5 h1 {
+    font-size: 20px;
+}
+
+.text-card-5 .judul-card {
+    font-size: 30px;
+    color: #304F4B;
+}
+
+.gambar {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-35%, -35%);
+
+}
+
+.gambar .g1 {
+    margin-top: 15%;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+
+.gambar .g2 {
+    animation: zoom-out-zoom-in 1s ease infinite;
+}
+
+.gambar .g3 {
+    margin-top: -15%;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.gambar .g4 {
+    animation: zoom-out-zoom-in 1s ease infinite;
+}
+
+.gambar .g5 {
+    margin-top: 15%;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.gambar img {
+    width: 15%;
+    border-radius: 50%;
+    border: 5px solid #4B3200;
+
+}
+
+.gallery {
+    margin-left: 5%;
+}
+
+.gallery .gal1 {
+    margin-top: -10%;
+}
+
+.gallery .gal2 {
+    margin-top: 20%;
+}
+
+.gallery .gal3 {
+    margin-top: -10%;
+}
+
+.c1 {
+    position: absolute;
+    top: 220%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.c2 {
+    position: absolute;
+    top: 220%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.c3 {
+    position: absolute;
+    top: 220%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.c4 {
+    position: absolute;
+    top: 220%;
+    left: 125%;
+    transform: translate(-50%, -50%);
+}
+
+.c5 {
+    position: absolute;
+    top: 220%;
+    left: 165%;
+    transform: translate(-50%, -50%);
+}
+
+.c6 {
+    position: absolute;
+    top: 220%;
+    left: 205%;
+    transform: translate(-50%, -50%);
+}
+
+#cloud {
+    background: rgba(255, 255, 255);
+    width: 230px;
+    height: 70px;
+    border-radius: 150px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    animation: move 3s infinite;
+}
+
+#cloud:after {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    top: -30px;
+    left: 50px;
+}
+
+#cloud:before {
+    content: '';
+    background: rgba(255, 255, 255);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -40px;
+    right: 40px;
+}
+
+.cloud-bawah {
+    border-radius: 50%;
+    background: white;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    top: 650px;
+    box-shadow: inset 0px 0px 0px 0px white, 0 0 40px 40px white;
+    position: absolute;
+    animation: moveback 3s infinite;
+}
+
+.cloud-transparent {
+    border-radius: 50%;
+    background: white;
+    width: 300px;
+    height: 60px;
+    margin: 50px;
+    box-shadow: inset 0px 0px 0px 0px white, 0 0 40px 40px white;
+    position: absolute;
+    animation: moveback 3s infinite;
+}
+
+.cloud-transparent-rumah {
+    border-radius: 50%;
+    background: #FFEEA6;
+    width: 300px;
+    height: 60px;
+    margin: 50px;
+    box-shadow: inset 0px 0px 0px 0px #FFEEA6, 0 0 40px 40px #FFEEA6;
+    position: absolute;
+    animation: moveback 3s infinite;
+}
+
+.cloud-transparent-rumah-2 {
+    border-radius: 50%;
+    background: #FFEEA6;
+    width: 300px;
+    height: 60px;
+    margin: 50px;
+    left: 30%;
+    box-shadow: inset 0px 0px 0px 0px #FFEEA6, 0 0 40px 40px #FFEEA6;
+    position: absolute;
+    animation: moveback 3s infinite;
+}
+
+.cloud-transparent-rumah-3 {
+    border-radius: 50%;
+    background: #FFEEA6;
+    width: 300px;
+    height: 60px;
+    margin: 50px;
+    left: 53%;
+    box-shadow: inset 0px 0px 0px 0px #FFEEA6, 0 0 40px 40px #FFEEA6;
+    position: absolute;
+    animation: moveback 3s infinite;
+}
+
+@media screen and (max-width:720px) {
+
+    .text-card {
+        width: 80%;
+        left: 50%;
+    }
+
+    .text-card-2 {
+        width: 80%;
+        left: 50%;
+    }
+
+    .text-card-2 {
+        top: 40%;
+    }
+
+    .text-card-3 {
+        width: 80%;
+        left: 50%;
+        top: 40%;
+    }
+
+    .text-card-4 {
+        width: 80%;
+        left: 50%;
+        top: 40%;
+    }
+
+    .text-card-5 {
+        width: 80%;
+        left: 50%;
+        top: 40%;
+    }
+
+    .petani {
+        display: none;
+    }
+
+    .desa {
+        display: none;
+    }
+
+    .rumput {
+        top: 95%;
+        left: 50%;
+    }
+
+    .rumah {
+        top: 95%;
+    }
+
+    .pelabuhan {
+        top: 95%;
+    }
+
+
+    .batu {
+        top: 95%;
+    }
+
+    .burung {
+        top: 15%;
+        left: 50%;
+    }
+
+    .burung img {
+        width: 70%;
+    }
+
+    .mata-angin {
+        top: 90%;
+    }
+
+    .mata-angin img {
+        width: 35%;
+    }
+
+    .hide-burung {
+        display: none;
+    }
+
+    .gambar {
+        top: 10%;
+    }
+
+    .gallery {
+        margin-left: 13%;
+
+    }
+
+    .gallery img {
+        width: 80%;
+    }
+
+    .gallery .gal1 {
+        margin-top: 0;
+    }
+
+    .gallery .gal2 {
+        margin-top: 0;
+    }
+
+    .gallery .gal3 {
+        margin-top: 0;
+    }
+
+    .slide h1 {
+        padding: 4px;
+    }
+
+    .c1 {
+        top: 130%;
+    }
+
+    .c2 {
+        top: 130%;
+    }
+
+    .c3 {
+        top: 130%;
+    }
+
+    .c4 {
+        top: 130%;
+    }
+
+    .cloud-transparent {
+        width: 200px;
+        height: 30px;
+    }
+
+    .cloud-transparent-rumah {
+        width: 200px;
+        height: 30px;
+    }
+
+    .cloud-transparent-rumah-2 {
+        display: none;
+    }
+
+    .cloud-transparent-rumah-3 {
+        display: none;
+    }
+}
+
+
+@keyframes move {
+    0% {
+        transform: translatex(0);
+    }
+
+    50% {
+        transform: translatex(-80px);
+    }
+}
+
+@keyframes moveback {
+    0% {
+        transform: translatex(0);
+    }
+
+    50% {
+        transform: translatex(80px);
+    }
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(45px);
+    }
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes zoom-out-zoom-in {
+    0% {
+        transform: scale(1.5, 1.5);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(1.5, 1.5);
+    }
+}
