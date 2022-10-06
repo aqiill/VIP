@@ -34,7 +34,7 @@ new fullpage('#fullpage', {
         });
 
         if (destination.index === 1) {
-            const cards = document.querySelectorAll('.card');
+            const cards = document.querySelectorAll('.menu-card');
             const social = document.querySelector('.social');
             tl.fromTo(cards, 0.5, {
                 x: '-300%'
