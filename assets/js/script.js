@@ -14,6 +14,11 @@ new fullpage('#fullpage', {
         const section = destination.item;
         const title = section.querySelector('h1');
         const subtitle = document.querySelector('.sub-title');
+        const desa = document.querySelector('.desa');
+        const rumah = document.querySelector('.rumah');
+        const rumput = document.querySelector('.rumput');
+        const batu = document.querySelector('.batu');
+        const pelabuhan = document.querySelector('.pelabuhan');
         const tl = new TimelineMax({
             delay: 0.5
         });
@@ -30,6 +35,46 @@ new fullpage('#fullpage', {
             opacity: 0
         }, {
             y: 0,
+            opacity: 1
+        });
+
+        tl.fromTo(desa, 0.5, {
+            y: '80',
+            opacity: 0
+        }, {
+            y: 0,
+            opacity: 1
+        });
+
+        tl.fromTo(rumah, 0.5, {
+            x: '80',
+            opacity: 0
+        }, {
+            x: 0,
+            opacity: 1
+        });
+
+        tl.fromTo(rumput, 0.5, {
+            x: '-80',
+            opacity: 0
+        }, {
+            x: 0,
+            opacity: 1
+        });
+
+        tl.fromTo(batu, 0.5, {
+            x: '80',
+            opacity: 0
+        }, {
+            x: 0,
+            opacity: 1
+        });
+
+        tl.fromTo(pelabuhan, 0.5, {
+            x: '-80',
+            opacity: 0
+        }, {
+            x: 0,
             opacity: 1
         });
 

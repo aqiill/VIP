@@ -181,14 +181,15 @@ span {
 .desa {
     margin: 0;
     position: absolute;
-    top: 70%;
-    left: 110%;
+    top: 40%;
+    left: 80%;
     transform: translate(-50%, -50%);
     width: 50%;
 }
 
 .desa img {
-    animation: rightLeft 4s;
+    /* animation: rightLeft 4s; */
+    animation: zoom-in-zoom-out2 3s infinite;
     animation-fill-mode: forwards;
     width: 100%;
 }
@@ -197,7 +198,7 @@ span {
     margin: 0;
     position: absolute;
     top: 80%;
-    left: 16%;
+    left: -33%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -212,7 +213,7 @@ span {
     margin: 0;
     position: absolute;
     top: 84%;
-    left: 70%;
+    left: 52%;
     transform: translate(-50%, -50%);
     width: 50%;
 }
@@ -226,7 +227,7 @@ span {
     margin: 0;
     position: absolute;
     top: 84%;
-    left: 16%;
+    left: -30%;
     transform: translate(-50%, -50%);
     width: 90%;
 }
@@ -256,7 +257,7 @@ span {
     margin: 0;
     position: absolute;
     top: 84%;
-    left: 165%;
+    left: 115%;
     transform: translate(-50%, -50%);
     width: 90%;
 }
@@ -593,11 +594,7 @@ span {
     }
 
     .mata-angin {
-        top: 90%;
-    }
-
-    .mata-angin img {
-        width: 35%;
+        top: 123%;
     }
 
     .hide-burung {
@@ -605,7 +602,7 @@ span {
     }
 
     .gambar {
-        top: 10%;
+        top: 5%;
     }
 
     .gallery {
@@ -716,7 +713,7 @@ span {
 
     100% {
         transform: translatex(-37rem);
-    } 
+    }
 }
 
 @keyframes leftRight {
